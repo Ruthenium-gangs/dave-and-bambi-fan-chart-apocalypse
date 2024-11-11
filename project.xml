@@ -2,15 +2,15 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 	<app
-		title="Friday Night Funkin' - Codename Engine" main="funkin.backend.system.Main"
-		file="CodenameEngine" packageName="com.yoshman29.codenameengine"
+		title="Vs Dave And Bambi: Fan Chart Apocalypse" main="funkin.backend.system.Main"
+		file="Fan Chart Apocalypse" packageName="com.yoshman29.codenameengine"
 		package="com.yoshman29.codenameengine"
-		version="0.1.0" company="Yoshman29" />
+		version="0.1.0" company="Fan Chart Apocalypse" />
 
 	<!--
 		CHANGE THE SAVE PATH & NAME FOR YOUR MOD HERE!
 	-->
-	<app save-path="YoshiCrafter29/CodenameEngine" save-name="save-default" mod-saves="true" />
+	<app save-path="Fan Chart Apocalypse/Fan Chart Apocalypse" save-name="save-default" mod-saves="true" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
@@ -28,7 +28,7 @@
 	<!-- ____________________________ Window Settings ___________________________ -->
 
 	<!--These window settings apply to all targets-->
-	<window width="1280" height="720" fps="" background="#000000" hardware="true" vsync="false" />
+	<window width="1280" height="720" fps="240" background="#000000" hardware="true" vsync="false" />
 
 	<!--HTML5-specific-->
 	<window if="html5" resizable="true" />
